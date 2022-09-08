@@ -1,0 +1,164 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+/* font-family: 'Dancing Script', cursive; */
+
+/* Start all css tag */
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Start heading css tag */
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    background-color: #0B1979;
+    font-style: oblique;
+}
+h1 .color-1 {
+    color: white;
+}
+h1 .color-2 {
+    color: #D45960;
+}
+h1 .color-3 {
+    color: #F1F0F7;
+}
+h1 .color-4 {
+    color: #7FC5F6;
+}
+/* End heading css tag */
+
+/* Start benner css */
+.benner {
+    background-color: black;
+    padding-top: 10px;
+    
+}
+.benner p{
+    color: white;
+    background-color: #047504;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+.benner  .benner-img {
+    text-align: center;
+    margin-top: 20px;
+}
+/* End benner css */
+
+/* Start about css */
+.about h2 {
+    color: #212529;
+    background-color: #834646;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    padding: 10px 0px; 
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+ }
+ .about p {
+    text-align: center;
+    line-height: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    padding: 5px 0px;
+ }
+/* End about css */
+
+/* Start service section css */
+.service{
+    background-color: #EEEEEE;
+    text-align: center;
+}
+.service h1 {
+    background-color: #297A48;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    font-style: italic;
+    padding: 0PX 0PX;
+}
+.service .service-box {
+    margin-top: 15px;
+}
+.service .service-box h2 {
+    color: #2E2A23;
+    margin-bottom: 10px;
+}
+.service .service-box p {
+    color: #433723;
+}
+.service .service-box.service-box-1 {
+    padding-bottom: 20px;
+}
+/* End service section css */
+
+/* Start contact section css */
+    .contact {
+        background-color: #EEEEEE;
+        text-align: center;
+    }
+    .contact h1 {
+        background-color: #0D6EFD;
+        font-style: normal;
+        font-size: 50px;
+    }
+    .contact .contact-form {
+        margin-top: 20px;
+    }
+    .contact .contact-form input {
+        padding: 5px 0px;
+        margin-right: 35px;
+    }
+    .contact .contact-form .button {
+        margin-right: 160px;
+        margin-bottom: 20px;
+    }
+/* End contact section css */
+
+/* Start get free section css */
+    .get-free {
+        background: #4F84C4;
+        text-align: center;
+        color: white;
+    }
+    .get-free h1 {
+        background: none;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 700; 
+        font-size: 50px;
+        padding: 5px 0px;
+    }
+    .get-free h2 {
+        padding: 5px 0px;
+        font-size: 20px;
+    }
+    .get-free p{
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+/* End get free section css */
+
+/* Start footer section css */
+    footer h4 {
+        background: #000000;
+        color: white;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    footer h4 a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #0E6EF5;
+    }
+/* End footer section css */
+
